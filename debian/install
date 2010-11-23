@@ -1,0 +1,3 @@
+jpegrescan usr/bin
+jpgcrush usr/bin
+jpeg_scan_* usr/share/jpgcrush

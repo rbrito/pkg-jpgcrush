@@ -1,0 +1,6 @@
+jpgcrush (0.0.0-1~ppa0) maverick; urgency=low
+
+  * Initial release (Closes: #nnnn)
+  * Upload to my ppa.
+
+ -- Rogério Brito <rbrito@ime.usp.br>  Mon, 22 Nov 2010 22:30:09 -0200

@@ -1,0 +1,28 @@
+Source: jpgcrush
+Section: graphics
+Priority: extra
+Maintainer: Rogério Brito <rbrito@ime.usp.br>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.8.4
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://git.debian.org/collab-maint/jpgcrush.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/jpgcrush.git;a=summary
+
+Package: jpgcrush
+Architecture: all
+Depends: libjpeg-progs, libfile-slurp-perl, ${misc:Depends}
+Recommends: jhead
+Description: lossless recompressor of jpeg files
+ jpgcrush is a lossless recompressor of jpeg files that works by using the
+ jpegtran utility to change the scans order of the jpeg files and by
+ regenerating the Huffman tables of the entropy coding of the files.
+ It can, in many cases, achieve size reductions of up to 10% relative
+ to the original files.
+ .
+ This version of the programs keep all the EXIF metadata and, if desired,
+ can be followed by a command line invocation like
+ .
+   jhead -dt -dc -di -dx -du *.jpg
+ .
+ to remove some metadata that may not be desired.
+
