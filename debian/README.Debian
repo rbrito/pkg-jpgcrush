@@ -1,6 +1,10 @@
 jpgcrush for Debian
 -------------------
 
-<possible notes regarding this package - if none, delete this file>
+This package differs from the upstream sources with respect to keeping
+all metadata from the original files in calls to `jpegtran`.
 
- -- Rogério Brito <rbrito@ime.usp.br>  Mon, 22 Nov 2010 22:30:09 -0200
+If you want to remove metadata from the files, please consider running
+`jhead -purejpg` on the appropriate files.
+
+ -- Rogério Brito <rbrito@ime.usp.br>, Tue, 31 Jan 2017 00:59:03 -0200
