@@ -2,7 +2,8 @@ Source: jpgcrush
 Section: graphics
 Priority: extra
 Maintainer: Rogério Brito <rbrito@ime.usp.br>
-Build-Depends: debhelper (>= 7.0.50~)
+Build-Depends:
+ debhelper (>= 7.0.50~)
 Standards-Version: 3.8.4
 Homepage: http://akuvian.org/src/
 Vcs-Git: https://github.com/rbrito/pkg-jpgcrush
@@ -10,8 +11,12 @@ Vcs-Browser: https://github.com/rbrito/pkg-jpgcrush
 
 Package: jpgcrush
 Architecture: all
-Depends: libjpeg-progs, libfile-slurp-perl, ${misc:Depends}
-Recommends: jhead
+Depends:
+ libfile-slurp-perl,
+ libjpeg-progs,
+ ${misc:Depends}
+Recommends:
+ jhead
 Description: lossless recompressor of jpeg files
  jpgcrush is a lossless recompressor of jpeg files that works by using the
  jpegtran utility to change the scans order of the jpeg files and by
@@ -25,4 +30,3 @@ Description: lossless recompressor of jpeg files
    jhead -dt -dc -di -dx -du *.jpg
  .
  to remove some metadata that may not be desired.
-
