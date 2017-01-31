@@ -1,3 +1,24 @@
+jpgcrush (0.0.0-1~ppa1~2.gbp3f43a7) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @3f43a747f195176432ca56af93a584757ac551c2 **
+
+  * debian/control:
+    + Add Vcs-* URLs.
+    + Add upstream URL.
+    + Bump Standards-Version to 3.9.8 (no changes required).
+  * debian:
+    + Run wrap-and-sort -s -a -v.
+    + Remove debhelper template files.
+  * debian/{compat,control}: Update to level 10.
+  * debian/README.Debian: Document keeping metadata.
+  * debian/copyright: First shot at converting to DEP-5 format.
+  * debian/patches:
+    + Add appropriate metadata.
+  * debian/source/lintian-overrides:
+    + Silence lintian's debian-watch-file-is-missing warning.
+
+ -- Rogério Brito <rbrito@ime.usp.br>  Tue, 31 Jan 2017 03:01:08 -0200
+
 jpgcrush (0.0.0-1~ppa0) maverick; urgency=low
 
   * Initial release (Closes: #nnnn)
