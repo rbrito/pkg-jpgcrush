@@ -1,0 +1,3 @@
+# Despite the extension, these files are not documentation.
+jpgcrush: package-contains-documentation-outside-usr-share-doc usr/share/jpgcrush/jpeg_scan_bw.txt
+jpgcrush: package-contains-documentation-outside-usr-share-doc usr/share/jpgcrush/jpeg_scan_rgb.txt
