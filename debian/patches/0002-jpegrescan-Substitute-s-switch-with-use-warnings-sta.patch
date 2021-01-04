@@ -1,0 +1,24 @@
+From: =?utf-8?q?Rog=C3=A9rio_Brito?= <rbrito@ime.usp.br>
+Date: Mon, 4 Jan 2021 19:40:38 -0300
+Subject: jpegrescan: Substitute -s switch with use warnings statement.
+
+---
+ jpegrescan | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+diff --git a/jpegrescan b/jpegrescan
+index 818a018..1d39afe 100755
+--- a/jpegrescan
++++ b/jpegrescan
+@@ -1,8 +1,10 @@
+-#!/usr/bin/perl -ws
++#!/usr/bin/perl -s
+ # jpegrescan by Loren Merritt
+ # Last updated: 2008-11-29
+ # This code is public domain.
+ 
++use warnings;
++
+ use File::Slurp;
+ @ARGV==2 or die "usage: jpegrescan in.jpg out.jpg\ntries various progressive scan orders\n";
+ $fin = $ARGV[0];
