@@ -1,6 +1,6 @@
 Source: jpgcrush
 Section: graphics
-Priority: extra
+Priority: optional
 Maintainer: Rogério Brito <rbrito@ime.usp.br>
 Build-Depends:
  debhelper (>= 10)
