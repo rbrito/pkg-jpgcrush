@@ -1,3 +1,24 @@
+jpgcrush (0.0.0-1~ppa2~1.gbpc94b7e) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @c94b7e18089f9eabf0a8c2a1336f90e0ecb21d02 **
+
+  * debian/control:
+    + Change priority from extra to optional.
+    + Recommend exiftool instead of jhead to strip metadata.
+    + Set Rules-Requires-Root to no.
+    + State compliancy with policy 4.5.1.
+  * debian/{compat,control}:
+    + Migrate to debhelper-compat (= 13)
+  * debian/copyright:
+    + Remove trailing whitespace.
+  * debian/patches:
+    + Add patch to move -s shebang switch to the program body.
+    + Regenerate from patch-queue.
+  * debian/*lintian-overrides:
+    + Add some lintian overrides for false positives or unfixable 'bugs'.
+
+ -- Rogério Brito <rbrito@ime.usp.br>  Mon, 04 Jan 2021 20:01:46 -0300
+
 jpgcrush (0.0.0-1~ppa1) unstable; urgency=medium
 
   * debian/control:
