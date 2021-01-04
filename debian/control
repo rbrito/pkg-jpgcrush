@@ -5,7 +5,7 @@ Maintainer: Rogério Brito <rbrito@ime.usp.br>
 Build-Depends:
  debhelper-compat (= 13)
 Rules-Requires-Root: no
-Standards-Version: 3.9.8
+Standards-Version: 4.5.1
 Homepage: http://akuvian.org/src/
 Vcs-Git: https://github.com/rbrito/pkg-jpgcrush
 Vcs-Browser: https://github.com/rbrito/pkg-jpgcrush
