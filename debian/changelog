@@ -1,6 +1,4 @@
-jpgcrush (0.0.0-1~ppa2~1.gbpc94b7e) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @c94b7e18089f9eabf0a8c2a1336f90e0ecb21d02 **
+jpgcrush (0.0.0-1~ppa2) unstable; urgency=medium
 
   * debian/control:
     + Change priority from extra to optional.
@@ -17,7 +15,7 @@ jpgcrush (0.0.0-1~ppa2~1.gbpc94b7e) UNRELEASED; urgency=medium
   * debian/*lintian-overrides:
     + Add some lintian overrides for false positives or unfixable 'bugs'.
 
- -- Rogério Brito <rbrito@ime.usp.br>  Mon, 04 Jan 2021 20:01:46 -0300
+ -- Rogério Brito <rbrito@ime.usp.br>  Mon, 04 Jan 2021 20:07:02 -0300
 
 jpgcrush (0.0.0-1~ppa1) unstable; urgency=medium
 
