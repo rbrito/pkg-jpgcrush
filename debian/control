@@ -16,7 +16,7 @@ Depends:
  libjpeg-progs,
  ${misc:Depends}
 Recommends:
- jhead
+ libimage-exiftool-perl
 Description: lossless recompressor of jpeg files
  jpgcrush is a lossless recompressor of jpeg files that works by using the
  jpegtran utility to change the scans order of the jpeg files and by
@@ -27,6 +27,14 @@ Description: lossless recompressor of jpeg files
  This version of the programs keep all the EXIF metadata and, if desired,
  can be followed by a command line invocation like
  .
-   jhead -dt -dc -di -dx -du *.jpg
+   exiftool -all= *.jpg
  .
  to remove some metadata that may not be desired.
+ .
+ You can, optionally, use the following command to remove metadata:
+ .
+   jhead -dt -dc -di -dx -du *.jpg
+ .
+ Be warned that this second command may remove some metadata (namely, APP14
+ JPEG tags) that are, alas, used when rendering the JPEGs and this may
+ result in incorrect colors.
