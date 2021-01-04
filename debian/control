@@ -3,7 +3,7 @@ Section: graphics
 Priority: optional
 Maintainer: Rogério Brito <rbrito@ime.usp.br>
 Build-Depends:
- debhelper (>= 10)
+ debhelper-compat (= 13)
 Standards-Version: 3.9.8
 Homepage: http://akuvian.org/src/
 Vcs-Git: https://github.com/rbrito/pkg-jpgcrush
