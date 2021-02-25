@@ -1,3 +1,11 @@
+jpgcrush (0.0.0-1~ppa3~1.gbp1d7495) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @1d749575af4eee7228abc44d5becb0acde12776a **
+
+  * debian/patches: Don't sanitize filenames.
+
+ -- Rogério Brito <rbrito@gmail.com>  Thu, 25 Feb 2021 13:10:45 -0300
+
 jpgcrush (0.0.0-1~ppa2) unstable; urgency=medium
 
   * debian/control:
