@@ -1,4 +1,4 @@
-From: =?utf-8?q?Rog=C3=A9rio_Brito?= <rbrito@ime.usp.br>
+From: =?utf-8?q?Rog=C3=A9rio_Brito?= <rbrito@gmail.com>
 Date: Mon, 4 Jan 2021 19:40:38 -0300
 Subject: jpegrescan: Substitute -s switch with use warnings statement.
 

@@ -1,4 +1,4 @@
-From: =?utf-8?q?Rog=C3=A9rio_Brito?= <rbrito@ime.usp.br>
+From: =?utf-8?q?Rog=C3=A9rio_Brito?= <rbrito@gmail.com>
 Date: Fri, 5 Feb 2021 18:39:23 -0300
 Subject: jpgcrush: Don't try to sanitize the filename.
 

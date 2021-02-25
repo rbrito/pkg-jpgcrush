@@ -7,4 +7,4 @@ all metadata from the original files in calls to `jpegtran`.
 If you want to remove metadata from the files, please consider running
 `jhead -purejpg` on the appropriate files.
 
- -- Rogério Brito <rbrito@ime.usp.br>, Tue, 31 Jan 2017 00:59:03 -0200
+ -- Rogério Brito <rbrito@gmail.com>, Thu, 25 Feb 2021 13:53:41 -0300
