@@ -1,2 +1,3 @@
 0001-Fix-paths-to-be-system-wide-usable.patch
 0002-jpegrescan-Substitute-s-switch-with-use-warnings-sta.patch
+0003-jpgcrush-Don-t-try-to-sanitize-the-filename.patch

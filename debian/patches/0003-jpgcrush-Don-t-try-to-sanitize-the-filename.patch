@@ -1,0 +1,23 @@
+From: =?utf-8?q?Rog=C3=A9rio_Brito?= <rbrito@ime.usp.br>
+Date: Fri, 5 Feb 2021 18:39:23 -0300
+Subject: jpgcrush: Don't try to sanitize the filename.
+
+---
+ jpgcrush | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/jpgcrush b/jpgcrush
+index 3615541..1c8e0a9 100755
+--- a/jpgcrush
++++ b/jpgcrush
+@@ -27,8 +27,8 @@ foreach $if (@ARGV) {
+         warn "\n$if might not be a jpeg:  $type\n";
+     }
+ 
+-    ($cf = $if) =~ s/^.*\///;
+-    $cf = "_$cf.c.jpg";
++    $cf = $if;
++    $cf = "$cf.c.jpg";
+     printf "\r[%d/%d %.2f%%]  %s    ", $n, $#ARGV+1, 100*($css/$iss-1), $if;
+     unlink $cf;
+     if($f) {
