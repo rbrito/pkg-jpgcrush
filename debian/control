@@ -14,7 +14,7 @@ Package: jpgcrush
 Architecture: all
 Depends:
  libfile-slurp-perl,
- libjpeg-progs,
+ libjpeg-turbo-progs | libjpeg-progs,
  ${misc:Depends}
 Recommends:
  libimage-exiftool-perl
